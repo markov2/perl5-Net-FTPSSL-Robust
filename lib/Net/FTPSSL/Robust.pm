@@ -96,6 +96,9 @@ sub _modif_time($$)
     $ftp->_mdtm($fn);
 }
 
+# not implemented/not possible?
+sub _can_restart($$$) { 0 }
+
 =chapter DETAILS
 
 =section Comparison

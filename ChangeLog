@@ -4,5 +4,11 @@
 Alll changes made by Mark Overmeer, unless explicitly stated
 differently.
 
+version 0.02: Fri Nov 13 23:42:02 CET 2009
+	- ftpssl-get change option flag abbreviation of "protection"
+	  from 'p' into 'd', because "port" used 'p' as well.
+	- And "password" abbreviation became capital 'P'.
+	- do not attempt to restart
+
 version 0.01: Fri Nov 13 17:02:09 CET 2009
 	- initial version
