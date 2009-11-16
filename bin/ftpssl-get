@@ -14,12 +14,12 @@ my $mode = 0;
 GetOptions
     # Net::FTP::new options
     'host|h=s'        => \$new_opt{Host}
-  , 'port|p=i'        => \$new_opt{Port}
+  , 'port|P=i'        => \$new_opt{Port}
   , 'timeout|t=i'     => \$new_opt{Timeout}
 
     # Net::FTP::login options
   , 'user|u=s'        => \$new_opt{user}
-  , 'password|P=s'    => \$new_opt{password}
+  , 'password|p=s'    => \$new_opt{password}
 
     # Net::FTPSSL options
   , 'security|s=s'    => \$new_opt{Security}         # TLD or SSL

@@ -4,7 +4,7 @@ use 5.008;
 
 WriteMakefile
  ( NAME	 	=> 'Net::FTPSSL::Robust'
- , VERSION	=> '0.02'
+ , VERSION	=> '0.03'
  , PREREQ_PM    =>
    { Log::Report      => 0.25
    , Net::FTP::Robust => 0.04

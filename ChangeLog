@@ -4,6 +4,10 @@
 Alll changes made by Mark Overmeer, unless explicitly stated
 differently.
 
+version 0.03: Mon Nov 16 21:02:19 CET 2009
+	- change bin/ftpssl-get meaning for 'p' <-> 'P' to be
+	  compatible with bin/ftp-get.
+
 version 0.02: Fri Nov 13 23:42:02 CET 2009
 	- ftpssl-get change option flag abbreviation of "protection"
 	  from 'p' into 'd', because "port" used 'p' as well.
