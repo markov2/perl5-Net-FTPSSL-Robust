@@ -96,6 +96,8 @@ sub _modif_time($$)
     $ftp->_mdtm($fn);
 }
 
+sub _ls($) { $_[1]->nlst }
+
 # not implemented/not possible?
 sub _can_restart($$$) { 0 }
 

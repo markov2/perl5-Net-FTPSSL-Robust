@@ -4,6 +4,9 @@
 Alll changes made by Mark Overmeer, unless explicitly stated
 differently.
 
+version 0.04: Mon Nov 16 21:42:35 CET 2009
+	- another fix :(  $ftp->nlst incompatible with Net::FTP
+
 version 0.03: Mon Nov 16 21:02:19 CET 2009
 	- change bin/ftpssl-get meaning for 'p' <-> 'P' to be
 	  compatible with bin/ftp-get.
