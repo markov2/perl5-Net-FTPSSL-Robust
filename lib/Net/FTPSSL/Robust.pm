@@ -98,8 +98,7 @@ sub _modif_time($$)
 
 sub _ls($) { $_[1]->nlst }
 
-# not implemented/not possible?
-sub _can_restart($$$) { 0 }
+sub _can_restart($$$) { 1 }
 
 =chapter DETAILS
 

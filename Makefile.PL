@@ -4,12 +4,11 @@ use 5.008;
 
 WriteMakefile
  ( NAME	 	=> 'Net::FTPSSL::Robust'
- , VERSION	=> '0.04'
+ , VERSION	=> '0.05'
  , PREREQ_PM    =>
    { Log::Report      => 0.25
-   , Net::FTP::Robust => 0.04
-   , Net::FTPSSL      => 0.12
-   , Test::Pod        => '1.00'
+   , Net::FTP::Robust => 0.06
+   , Net::FTPSSL      => 0.18
    }
  , EXE_FILES    => [ 'bin/ftpssl-get' ]
  , AUTHOR       => 'Mark Overmeer'

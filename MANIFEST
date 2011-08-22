@@ -5,4 +5,4 @@ PODTAIL.txt
 bin/ftpssl-get
 lib/Net/FTPSSL/Robust.pm
 t/01use.t
-t/99pod.t
+xt/99pod.t
