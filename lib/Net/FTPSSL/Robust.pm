@@ -1,12 +1,14 @@
-use warnings;
-use strict;
+# This code is part of distribution Net-FTPSSL-Robust.  Meta-POD processed
+# with OODoc into POD and HTML manual-pages.  See README.md
+# Copyright Mark Overmeer.  Licensed under the same terms as Perl itself.
 
 package Net::FTPSSL::Robust;
 use base 'Net::FTP::Robust', 'Exporter';
 
-our @EXPORT =
-  qw/SECURITY_TLS
-     SECURITY_SSL/;
+use warnings;
+use strict;
+
+our @EXPORT = qw/SECURITY_TLS SECURITY_SSL/;
 
 use Log::Report 'net-ftpssl-robust', syntax => 'SHORT';
 
@@ -105,7 +107,7 @@ sub _can_restart($$$) { 1 }
 =section Comparison
 
 M<Net::FTPSSL> implements the FTP protocol over encrypted connections.
-C<Net::FTPSLL::Robust> adds retries and logging, to retrieve
+C<Net::FTPSSL::Robust> adds retries and logging, to retrieve
 data which takes hours to download, sometimes over quite instable
 connections.  It uses M<Log::Report> which can connect to various logging
 frameworks for its messages.

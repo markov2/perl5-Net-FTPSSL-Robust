@@ -1,7 +1,7 @@
 ChangeLog
 MANIFEST
 Makefile.PL
-PODTAIL.txt
+README.md
 bin/ftpssl-get
 lib/Net/FTPSSL/Robust.pm
 t/01use.t
