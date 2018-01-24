@@ -11,9 +11,9 @@ WriteMakefile
    , Net::FTPSSL      => 0.18
    }
  , EXE_FILES    => [ 'bin/ftpssl-get' ]
- , AUTHOR       => 'Mark Overmeer'
+ , AUTHOR       => 'Mark Overmeer <markov@cpan.org>'
  , ABSTRACT     => 'download directories over FTP with SSL or TLS encryption'
- , LICENSE      => 'perl'
+ , LICENSE      => 'perl_5'
 
  , META_MERGE =>
       { 'meta-spec' => { version => 2 }
@@ -23,9 +23,9 @@ WriteMakefile
               , url  => 'https://github.com/markov2/perl5-Net-FTPSSL-Robust.git'
               , web  => 'https://github.com/markov2/perl5-Net-FTPSSL-Robust'
               }
+          , homepage => 'http://perl.overmeer.net/CPAN/'
+          , license  => [ 'http://dev.perl.org/licenses/' ]
           }
-      , homepage => 'http://perl.overmeer.net/CPAN/'
-      , license  => [ 'http://dev.perl.org/licenses/' ]
       }
 
  );
